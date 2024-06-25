@@ -208,7 +208,7 @@ const BoardingPassRightSide: FunctionComponent<BoardingPassProps> = ({
           <div>G1</div>
         </div>
         <div>
-          <div>Seat / Места</div>
+          <div>Seat / Месца</div>
           <div className="text-right">1A</div>
         </div>
       </div>
