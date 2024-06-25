@@ -125,7 +125,7 @@ export const SlotsTable: FunctionComponent<SlotsTableProps> = ({
                             <td className={`p-0 rounded-l-lg ${hasAirlineImage ? "bg-white" : ""}`}>
                                 {hasAirlineImage && (
                                     <img
-                                        className="mx-auto rounded-l-lg"
+                                        className="mx-auto"
                                         width={67}
                                         height={16}
                                         src={URL.createObjectURL(airlineImages[idx] as Blob)}
