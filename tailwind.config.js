@@ -28,7 +28,7 @@ module.exports = {
     fontFamily: {
       'header': ['Nunito Sans'],
       'text': ['Roboto'],
-      'action': ['Poppins']
+      'action': ['Arial']
     },
     colors: {
       'green': '#2EC662',
