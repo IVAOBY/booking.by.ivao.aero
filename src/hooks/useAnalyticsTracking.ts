@@ -2,11 +2,10 @@ import { ConsentAnwsers, CookieConsentContext } from 'context/CookieConsentConte
 import { useContext } from 'react';
 import ReactGA from 'react-ga4';
 import { AnalyticsTracking } from 'types/AnalyticsTracking';
-import { Env } from "env";
 
 export function useAnalyticsTracking(): AnalyticsTracking {
     const { cookieConsent } = useContext(CookieConsentContext);
-    const trackingId = Env.ANALYTICS_TRACKING_ID;
+    const trackingId = "G-09RLSXSQHT"
 
     if (cookieConsent !== ConsentAnwsers.ACCEPTED || !trackingId) {
         let noopTracking: AnalyticsTracking = {
